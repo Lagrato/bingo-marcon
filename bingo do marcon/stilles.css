@@ -1,0 +1,60 @@
+body {
+    background-color: slateblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(235, 130, 81);
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.bingo {
+    width: 500px;
+    height: 500px;
+    background-color:darkslateblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Comic sans ms";
+    font-size: 1.3em;
+}
+
+.celula {
+    display: inline-flex;
+    width: 161px;
+    height: 161px;
+    background-color: #f08080;
+    transition: 0.1s;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.celula:hover {
+    background-color: #db5050;
+}
+
+.celula_completa {
+    display:inline-flex;
+    width: 161px;
+    height: 161px;
+    background-color:mediumseagreen;
+    transition: 0.1s;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.celula_completa:hover {
+    background-color: seagreen;
+}
+
+.celula_completa .frase {
+    text-decoration: line-through;
+}
