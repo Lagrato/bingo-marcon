@@ -8,7 +8,11 @@ const FRASES = [
     "Maria Helena é uma Deusa",
     "Vou conversar com vocês/ser honesto",
     "O que o vestibular cobra é o problema",
-    "A aula não é baseada no material"
+    "A aula não é baseada no material",
+    "Meu país é o Brasil e eu gosto de falar do Brasil",
+    "*demora mais de 15 mins pra passar 1 slide.*",
+    "Essa sala é muito boa/o caio adora essa sala"
+    
 ];
 const spanids = ['f1', 'f2', 'f3', 'f4', 'f5', 'f6', 'f7', 'f8', 'f9'];
 
