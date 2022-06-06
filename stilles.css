@@ -14,21 +14,21 @@ h1 {
 }
 
 .bingo {
-    width: 500px;
-    height: 500px;
+    width: 31em;
+    height: 31em;
     background-color:darkslateblue;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     font-family: "Comic sans ms";
-    font-size: 1.3em;
+    font-size: 1.6em;
 }
 
 .celula {
     display: inline-flex;
-    width: 161px;
-    height: 161px;
+    width: 10em;
+    height: 10em;
     background-color: #f08080;
     transition: 0.1s;
     justify-content: center;
@@ -42,8 +42,8 @@ h1 {
 
 .celula_completa {
     display:inline-flex;
-    width: 161px;
-    height: 161px;
+    width: 10em;
+    height: 10em;
     background-color:mediumseagreen;
     transition: 0.1s;
     justify-content: center;
